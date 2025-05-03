@@ -1,4 +1,4 @@
-Tämä kuvaa tukipyyntöjä joita tulee asiakaspalveluun ja ne ovat jaettu eri tasoiksi.
+# Tämä kuvaa tukipyyntöjä joita tulee asiakaspalveluun ja ne ovat jaettu eri tasoiksi.
 
 from abc import ABC, abstractmethod
 
