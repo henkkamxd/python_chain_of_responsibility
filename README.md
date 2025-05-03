@@ -1,4 +1,4 @@
-# Tämä kuvaa tukipyyntöjä joita tulee asiakaspalveluun ja ne ovat jaettu eri tasoiksi.
+# Tämä kuvaa tukipyyntöjä joita tulee asiakaspalveluun ja ne ovat jaettu eri tasoiksi. Niistä valitaan itselleen sopiva taso ja ne menee käsittelyyn. Jos ne eivät sovi omaan käsittelyyn ne menevät seuraavalle käsittelijälle.
 
 from abc import ABC, abstractmethod
 
