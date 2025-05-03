@@ -48,3 +48,17 @@ pyynnot = ["perus", "tekninen", "kriittinen", "tuntematon"]
 for pyynto in pyynnot:
     print(f"\nKäsitellään pyyntö: {pyynto}")
     perus.kasittele(pyynto)
+
+Käsitellään pyyntö: perus
+PerusTukiKasittelija käsitteli pyynnön.
+
+Käsitellään pyyntö: tekninen
+TekninenTukiKasittelija käsitteli pyynnön.
+
+Käsitellään pyyntö: kriittinen
+KriittinenTukiKasittelija käsitteli pyynnön.
+
+Käsitellään pyyntö: tuntematon
+Pyyntöä ei voitu käsitellä.
+
+Pitäisi tulla tälläiset toimiessa.
