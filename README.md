@@ -7,7 +7,7 @@ class Kasittelija(ABC):
     def __init__(self, seuraaja=None):
         self.seuraaja = seuraaja
 
-    @abstractmethod
+    @abstractmethod  # decorator
     def kasittele(self, pyynto):
         pass
 
