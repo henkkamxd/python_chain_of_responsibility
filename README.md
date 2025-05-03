@@ -3,7 +3,7 @@
 from abc import ABC, abstractmethod
 
 # Abstrakti käsittelijä
-class Kasittelija(ABC): # abstrakti käsittelijä
+class Kasittelija(ABC):
     def __init__(self, seuraaja=None):
         self.seuraaja = seuraaja
 
