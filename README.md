@@ -41,7 +41,7 @@ kriittinen = KriittinenTukiKasittelija()
 tekninen = TekninenTukiKasittelija(seuraaja=kriittinen)
 perus = PerusTukiKasittelija(seuraaja=tekninen)
 
-# Esimerkkejä pyynnöistä
+# Esimerkkejä pyynnöistä testetaan lävitse eri pyynnöt
 pyynnot = ["perus", "tekninen", "kriittinen", "tuntematon"]
 for pyynto in pyynnot:
     print(f"\nKäsitellään pyyntö: {pyynto}")
